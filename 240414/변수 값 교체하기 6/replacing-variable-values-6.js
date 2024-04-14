@@ -3,8 +3,8 @@ let b = 5;
 
 let temp = a;
 
-b = temp;
 a = b;
+b = temp;
 
 console.log(a);
 console.log(b);
