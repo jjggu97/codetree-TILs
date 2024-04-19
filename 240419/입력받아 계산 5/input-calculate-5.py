@@ -4,4 +4,7 @@ arr = num.split()
 a = arr[0]
 b = arr[1]
 
-print(a * b)
+a = int(a)
+b = int(b)
+
+print(a + b)
