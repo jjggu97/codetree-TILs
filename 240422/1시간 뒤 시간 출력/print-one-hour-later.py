@@ -1,4 +1,5 @@
-time = input()
-time = time.split(":")
+h, m = input().split(':')
 
-print(time)
+h, m = int(h), int(m)
+
+print(f"{h+1}:{m}")
