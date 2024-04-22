@@ -10,5 +10,5 @@ a = round(a,2)
 b = round(b,2)
 
 print(c)
-print(a)
-print(b)
+print("{:.2f}".format(a))
+print("{:.2f}".format(b))
