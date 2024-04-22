@@ -2,9 +2,9 @@ c = input()
 a = input()
 b = input()
 
+c = str(c)
 a = float(a)
 b = float(b)
-c = str(c)
 
 a = round(a,2)
 b = round(b,2)
