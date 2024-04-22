@@ -1,4 +1,4 @@
 a, b, c = input().split('-')
 a, b, c = int(a), int(b), int(c)
 
-print(f"{a}-{c}-{b}")
+print(f"010-{c}-{b}")
