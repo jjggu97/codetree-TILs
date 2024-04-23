@@ -5,5 +5,5 @@ sqre = int(sqre)
 
 print(sqre)
 
-if sqre < 6:
+if n < 6:
     print("tiny")
