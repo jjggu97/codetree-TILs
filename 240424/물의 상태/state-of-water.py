@@ -5,6 +5,6 @@ if tem <= 0:
 
 elif tem >= 100:
     print("vapor")
-    
-else:
+
+elif 100 > tem > 0:
     print("water")
