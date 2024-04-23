@@ -3,7 +3,7 @@ num = input().split(' ')
 hor = num[0]
 ver = num[1]
 
-hor, ver = int(hor), int(Ver)
+hor, ver = int(hor), int(ver)
 
 hor += 8
 print(hor)
