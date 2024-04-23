@@ -1,6 +1,6 @@
 tem = int(input())
 
-if tem <= 0:
+if tem < 0:
     print("ice")
 
 elif tem >= 100:
