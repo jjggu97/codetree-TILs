@@ -1,4 +1,5 @@
-n = input(int())
+n = input()
+n = int(n)
 a = 1
 
 while a <= n:
