@@ -1,4 +1,2 @@
-n = 8
-
-for i in range(n):
+for i in range(8):
     print("G")
