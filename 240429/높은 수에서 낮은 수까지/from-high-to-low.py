@@ -9,3 +9,6 @@ if a > b:
 if a < b:
     for i in range(b,a-1,-1):
         print(i,end=' ')
+
+if a == b:
+    print(a, b)
