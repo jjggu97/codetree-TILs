@@ -11,4 +11,4 @@ if a < b:
         print(i,end=' ')
 
 if a == b:
-    print(a, b)
+    print(a)
