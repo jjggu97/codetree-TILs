@@ -6,5 +6,5 @@ if a >= 0:
     for i in range(b):
         print(a,end='')
 
-if a < 0:
+if a < 1:
     print("0")
