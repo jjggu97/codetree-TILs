@@ -1,13 +1,12 @@
 n = input().split(' ')
 
 a,b = int(n[0]),int(n[1])
-
 print(a,end=' ')
 
-for i in range(a, b + 1):
-    if i % 2 == 1:
-        i == i * 2
-        print(i,end=' ')
+while a < b:
+    if a % 2 == 1:
+        a *= 2
+        print(a,end=' ')
     else:
-        i += 3
-        print(i,end=' ')
+        a += 3
+        print(a,end=' ')
