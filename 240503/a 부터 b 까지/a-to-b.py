@@ -2,6 +2,8 @@ n = input().split(' ')
 
 a,b = int(n[0]),int(n[1])
 
+print(a,end=' ')
+
 for i in range(a, b + 1):
     if i % 2 == 1:
         i == i * 2
