@@ -1,17 +1,13 @@
-num = input().split(' ')
-a,b = int(num[0]), int(num[1])
+num = input("두 개의 정수를 입력하세요: ").split(' ')
+a, b = int(num[0]), int(num[1])
 
-total = 0
+total_sum = 0
 
-if a > b:
-    for i in range(a,b+1):
-        if i % 5 == 0:
-            total += i
+start = min(a, b)
+end = max(a, b)
 
-else:
-    for i in range(b,a+1):
-        if i % 5 == 0:
-            total += i
+for i in range(start, end + 1):
+    if i % 5 == 0:
+        total_sum += i
 
-
-print(total)
+print("5의 배수의 합:", total_sum)
