@@ -9,9 +9,9 @@ if a > b:
             sum += i
 
 else:
-    for j in range(b,a+1):
-        if j % 5 == 0:
-            sum += j
+    for i in range(b,a+1):
+        if i % 5 == 0:
+            sum += i
 
 
 
